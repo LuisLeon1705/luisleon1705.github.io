@@ -1,22 +1,59 @@
-# Luis Leon | Cinematic Noir Portfolio
+# Web Application
 
-**[👁️ Visita el sitio en vivo aquí](https://luisleon1705.github.io/)**
+This is a modern web application built with Next.js, React, and Tailwind CSS.
 
-A highly stylized, 2.5D cinematic curriculum designed to tell a story of technical mastery and professional evolution.
+## Prerequisites
 
-## 🎞️ The Experience
-- **Cinematic Scroll:** A 2.5D parallax effect that zooms from a rainy-day alley window into a high-stakes dossier.
-- **Paginated Dossier:** A three-spread interactive menu detailing tech stack, projects, and professional ethics.
-- **Bilingual Support:** Instant switching between English and Spanish.
-- **The "Alley Window":** A dynamic background displaying looping source code in a VS Code Dark+ aesthetic.
+Ensure you have Node.js and npm installed on your system.
 
-## 🛠️ Tech Stack
-- **Framework:** Next.js 15+ (App Router)
-- **Styling:** Tailwind CSS (Custom "Completitude" Noir theme)
-- **Animations:** Framer Motion (useScroll, useTransform, AnimatePresence)
-- **Icons:** Lucide React
+## Getting Started
 
-## 🚀 How to Run Locally
-1. **Clone the repo:**
+### 1. Installation
+
+Install the project dependencies using npm:
+
 ```bash
-   git clone [https://github.com/LuisLeon1705/](https://github.com/LuisLeon1705/)<nombre-de-tu-repo>.git
+npm install
+```
+
+### 2. Development Server
+
+To run the application in development mode, execute the following command:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application. You can start editing the page by modifying the files inside the `src` directory. The application will hot-reload automatically as you save your changes.
+
+### 3. Building for Production
+
+To build the application for production deployment, run:
+
+```bash
+npm run build
+```
+
+This will create an optimized production build.
+
+To start the production server after the build process is complete, run:
+
+```bash
+npm start
+```
+
+### 4. Linting
+
+To check the code for potential errors and enforce styling rules, run:
+
+```bash
+npm run lint
+```
+
+## Technologies Used
+
+* Next.js
+* React
+* Tailwind CSS
+* Framer Motion
+* Lucide React

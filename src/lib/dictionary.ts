@@ -190,8 +190,8 @@ export const es = {
                 },
                 { 
                   name: "Escalador de Imágenes Adaptativo", 
-                  desc: "Próximamente.",
-                  tooltip: "Herramienta especializada en Python que utiliza lógica avanzada para upscaling preciso de imágenes locales. En fase de cuidadosa preparación." 
+                  desc: "Escalador de imágenes adaptativo desarrollado en Rust con el uso de webgpu y shaders personalizados, gridding adaptativo y técnicas de upscaling avanzadas.",
+                  tooltip: "Herramienta especializada en Rust que utiliza lógica avanzada para upscaling preciso de imágenes locales. En fase de cuidadosa preparación." 
                 }
               ]
             }

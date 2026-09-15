@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luis León — Case File</title>
+<meta name="description" content="Luis León — Ingeniero en Computación. Un tablero de evidencia con los casos (proyectos) resueltos hasta ahora.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="vignette"></div>
+
+<header class="hud">
+  <div class="hud-left"><span class="hud-title">EXP. 1705-LL</span></div>
+  <div class="hud-right">
+    <button class="hud-btn" id="soundToggle" type="button" title="Sonido">🔈</button>
+    <button class="hud-btn" id="langToggle" type="button">EN</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="intro">
+    <div class="intro-photo">
+      <img src="assets/portrait.jpg" alt="Luis León">
+      <span class="photo-clip"></span>
+    </div>
+    <div class="intro-text">
+      <div class="tape" data-i18n="tapeText">EVIDENCIA · NO CRUZAR</div>
+      <h1 data-i18n="bioName">LEÓN, L. — 1705</h1>
+      <p class="bio-body" data-i18n="bioBody"></p>
+      <p class="bio-ethics" data-i18n="ethicsBody"></p>
+      <div class="contact-row">
+        <a class="contact-btn" href="mailto:leonpizzano@gmail.com">✉ <span data-i18n="contactMail">Correo</span></a>
+        <a class="contact-btn" href="https://wa.me/584128316804" target="_blank" rel="noopener noreferrer">📞 WhatsApp</a>
+        <a class="contact-btn" href="https://github.com/LuisLeon1705" target="_blank" rel="noopener noreferrer">🗂 GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="board-section">
+    <h2 data-i18n="boardTitle">Tablero de Evidencia</h2>
+    <p class="board-hint" data-i18n="boardHint">Clic en una pieza de evidencia para ver el expediente completo.</p>
+    <div class="board" id="board">
+      <svg class="strings" id="strings"></svg>
+      <div class="hub-pin" id="hubPin">
+        <img src="assets/portrait.jpg" alt="">
+        <span class="hub-label" data-i18n="hubLabel">SUJETO</span>
+      </div>
+      <div class="cards" id="cardsLayer"></div>
+      <figure class="side-note" id="sideNote">
+        <img src="assets/Minimal_Assembly_Knowledge.png" alt="">
+        <figcaption>
+          <span class="note-tag" data-i18n="noteTag">NOTA DE CAMPO</span>
+          <span class="note-title" data-i18n="noteTitle"></span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="specialties-section">
+    <h2 data-i18n="specialtiesTitle">Carpeta de Especialidades</h2>
+    <div class="folders" id="folders"></div>
+  </section>
+
+  <section class="closing">
+    <blockquote id="closingText"></blockquote>
+  </section>
+
+</main>
+
+<div class="popup-backdrop" id="popupBackdrop"></div>
+<div class="case-popup" id="casePopup">
+  <button class="popup-close" id="popupClose">✕</button>
+  <img class="popup-img" id="cpImg" alt="">
+  <span class="case-tag" id="cpTag"></span>
+  <h3 id="cpTitle"></h3>
+  <p class="case-popup-text" id="cpBody"></p>
+  <a id="cpLink" target="_blank" rel="noopener noreferrer"></a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

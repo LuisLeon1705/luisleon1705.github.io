@@ -19,7 +19,7 @@ Construido en **HTML5, CSS3 y JavaScript puro (Vanilla JS)** sin dependencias ex
   - Efecto de sonido opcional (`#soundToggle` 🔈/🔊) sintetizado en tiempo real mediante **Web Audio API** (`AudioContext` + ráfaga de ruido blanco de `20ms` con filtro paso alto a `2000Hz`), sin archivos de audio externos.
 - **Internacionalización instantánea (`ES` / `EN`)**
   - Diccionario completo en `script.js` (`TEXT.es` y `TEXT.en`) con persistencia en `localStorage`.
-  - Conmuta en caliente todos los textos de interfaz (`[data-i18n]`), los 18 casos del tablero (`cases`) y las 5 carpetas de especialidades (`specialties`).
+  - Conmuta en caliente todos los textos de interfaz (`[data-i18n]`), los 17 casos del tablero (`cases`) y las 5 carpetas de especialidades (`specialties`).
 - **Estética analógica noir**
   - Superposiciones fijas de grano fotográfico (`.grain`) y viñeteado (`.vignette`), retrato tipo Polaroid con cinta adhesiva, tipografías monoespaciadas (`Special Elite` y `Courier Prime`) y carpetas desplegables de especialidades.
 
@@ -34,7 +34,6 @@ luisleon1705.github.io/
 ├── script.js                            # Datos bilingües (TEXT), layout trigonométrico, modal y síntesis Web Audio
 ├── assets/
 │   ├── portrait.jpg                     # Fotografía del expediente principal
-│   ├── clay-myrrh.png                   # Logo Caso #014 (Clay-Myrrh)
 │   ├── Arknights_Tier_List.png          # Captura Caso #000 (Arknights Analytical Tier List Engine)
 │   ├── Vigilia_Tech_VZLA.png            # Captura Caso #001 (VigilaTech Vzla)
 │   ├── RustUpscaller.png                # Captura Caso #004 (Adaptive Image & Video Upscaler)

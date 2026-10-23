@@ -31,13 +31,12 @@ const TEXT = {
       { tag: "Caso #011 — Pendiente", title: "Todo Dulce Page", body: "Página en preparación. Aún bajo vigilancia.", link: "https://github.com/LuisLeon1705/Todo_Dulce_Page", img: "assets/Todo_Dulce_Page.png" },
       { tag: "Caso #012 — Nuevo", title: "3D-Memory (CTHG)", body: "Motor de memoria persistente para agentes de código en Rust puro (0 dependencias): hipergrafo causal-temporal (.cthg) con recuperación por ruta (X), tiempo monótono (Y) y confianza bayesiana χ (Z).", link: "https://github.com/LuisLeon1705/3D_Memory" },
       { tag: "Caso #013 — Nuevo", title: "3D-Memory Visualizer (memviz)", body: "Aplicación nativa de escritorio en Rust (tao/wry + protocolo memviz://) que renderiza memorias .cthg como una constelación 3D interactiva en vivo.", link: "https://github.com/LuisLeon1705/3D-Memory-Visualizer" },
-      { tag: "Caso #014 — Destacado", title: "Clay-Myrrh", body: "Tu IA en casa: asistente para terminal con modelos locales (GGUF con llama.cpp u Ollama), visión multimodal con lector de PDFs/imágenes, edición quirúrgica de código en modo proyecto y 57 componentes web declarativos.", link: "https://github.com/LuisLeon1705/Clay-Myrrh", img: "assets/clay-myrrh.png" },
-      { tag: "Caso #015", title: "Gestor de Tareas Rust", body: "Gestor CLI concurrente en Rust enfocado en alta eficiencia, seguridad de memoria y procesamiento ágil de tareas.", link: "https://github.com/LuisLeon1705/Gestor-de-Tareas-Rust" },
-      { tag: "Caso #016", title: "GoLang TaskMaster", body: "Despachador multihilo y planificador de tareas concurrentes desarrollado en Go.", link: "https://github.com/LuisLeon1705/GoLang-TaskMaster" },
-      { tag: "Caso #017", title: "Git Simulator (Python)", body: "Emulador e inspector de bajo nivel de estructuras internas de Git (árboles, blobs y grafos de commits).", link: "https://github.com/LuisLeon1705/Git_Simulator_Python" }
+      { tag: "Caso #014", title: "Gestor de Tareas Rust", body: "Gestor CLI concurrente en Rust enfocado en alta eficiencia, seguridad de memoria y procesamiento ágil de tareas.", link: "https://github.com/LuisLeon1705/Gestor-de-Tareas-Rust" },
+      { tag: "Caso #015", title: "GoLang TaskMaster", body: "Despachador multihilo y planificador de tareas concurrentes desarrollado en Go.", link: "https://github.com/LuisLeon1705/GoLang-TaskMaster" },
+      { tag: "Caso #016", title: "Git Simulator (Python)", body: "Emulador e inspector de bajo nivel de estructuras internas de Git (árboles, blobs y grafos de commits).", link: "https://github.com/LuisLeon1705/Git_Simulator_Python" }
     ],
     specialties: [
-      { title: "IA & Sistemas Agénticos", body: "Clay-Myrrh, 3D-Memory (CTHG), llama.cpp, Ollama, PyTorch, CUDA — asistentes agénticos locales, memoria causal y visión multimodal." },
+      { title: "IA & Sistemas Agénticos", body: "3D-Memory (CTHG), llama.cpp, Ollama, PyTorch, CUDA — asistentes agénticos locales, memoria causal y visión multimodal." },
       { title: "Desarrollo Web & Gráficos", body: "WebGPU (wgpu/WGSL), Three.js, Canvas 3D, React 19, Next.js — interfaces interactivas y motores 3D." },
       { title: "Rust & Sistemas", body: "Motores cero dependencias, formatos binarios CRC32, Axum, Tokio, WebView2 (tao/wry) y concurrencia." },
       { title: "Backend & Infraestructura", body: "Node.js, Go, PHP (Laravel), Docker — arquitecturas políglotas dockerizadas." },
@@ -74,13 +73,12 @@ const TEXT = {
       { tag: "Case #011 — Pending", title: "Todo Dulce Page", body: "Page still in preparation. Under surveillance.", link: "https://github.com/LuisLeon1705/Todo_Dulce_Page", img: "assets/Todo_Dulce_Page.png" },
       { tag: "Case #012 — New", title: "3D-Memory (CTHG)", body: "Zero-dependency Rust persistent memory engine for coding agents: causal-temporal hypergraph (.cthg) with spatial path inheritance (X), monotonic time (Y), and Bayesian confidence χ (Z).", link: "https://github.com/LuisLeon1705/3D_Memory" },
       { tag: "Case #013 — New", title: "3D-Memory Visualizer (memviz)", body: "Native Rust desktop explorer (tao/wry + custom memviz:// protocol) rendering .cthg project memories as an interactive 3D constellation in real time.", link: "https://github.com/LuisLeon1705/3D-Memory-Visualizer" },
-      { tag: "Case #014 — Flagship", title: "Clay-Myrrh", body: "Local terminal AI assistant running GGUF models offline (llama.cpp/Ollama) with multimodal vision document reader, Claude Code-style project editing, and 57 declarative web components.", link: "https://github.com/LuisLeon1705/Clay-Myrrh", img: "assets/clay-myrrh.png" },
-      { tag: "Case #015", title: "Rust Task Manager", body: "Concurrent CLI task manager built in Rust prioritizing zero overhead, memory safety, and high-throughput job tracking.", link: "https://github.com/LuisLeon1705/Gestor-de-Tareas-Rust" },
-      { tag: "Case #016", title: "GoLang TaskMaster", body: "Multithreaded concurrent task processor and scheduler engine engineered in Go.", link: "https://github.com/LuisLeon1705/GoLang-TaskMaster" },
-      { tag: "Case #017", title: "Git Simulator (Python)", body: "Low-level emulator and inspector of Git internals (blobs, tree objects, and commit DAGs).", link: "https://github.com/LuisLeon1705/Git_Simulator_Python" }
+      { tag: "Case #014", title: "Rust Task Manager", body: "Concurrent CLI task manager built in Rust prioritizing zero overhead, memory safety, and high-throughput job tracking.", link: "https://github.com/LuisLeon1705/Gestor-de-Tareas-Rust" },
+      { tag: "Case #015", title: "GoLang TaskMaster", body: "Multithreaded concurrent task processor and scheduler engine engineered in Go.", link: "https://github.com/LuisLeon1705/GoLang-TaskMaster" },
+      { tag: "Case #016", title: "Git Simulator (Python)", body: "Low-level emulator and inspector of Git internals (blobs, tree objects, and commit DAGs).", link: "https://github.com/LuisLeon1705/Git_Simulator_Python" }
     ],
     specialties: [
-      { title: "AI & Agentic Systems", body: "Clay-Myrrh, 3D-Memory (CTHG), llama.cpp, Ollama, PyTorch, CUDA — local agentic assistants, causal memory, and multimodal vision." },
+      { title: "AI & Agentic Systems", body: "3D-Memory (CTHG), llama.cpp, Ollama, PyTorch, CUDA — local agentic assistants, causal memory, and multimodal vision." },
       { title: "Web & Graphics", body: "WebGPU (wgpu/WGSL), Three.js, Canvas 3D, React 19, Next.js — interactive interfaces and 3D engines." },
       { title: "Rust & Systems", body: "Zero-dependency engines, atomic CRC32 binary formats, Axum, Tokio, WebView2 (tao/wry), and concurrency." },
       { title: "Backend & Infrastructure", body: "Node.js, Go, PHP (Laravel), Docker — dockerized polyglot architectures." },
